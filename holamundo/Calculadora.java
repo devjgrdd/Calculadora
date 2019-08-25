@@ -39,7 +39,7 @@ public class Calculadora {
 				calculadora.menu();
 				opcion = teclado.next().charAt(0);
 			}while(opcion!='s' && opcion!='r' && opcion!='m' && opcion!='d' && opcion!='f');
-			//continuar=opcion=='f'?false:true;
+
 			if(opcion!='f') {
 				float n1 = 0.0f;
 				float n2 = 0.0f;
